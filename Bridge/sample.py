@@ -46,5 +46,5 @@ def client_code(shape):
 
 if __name__ == "__main__":
     red = Red()
-    circle = Circle()
+    circle = Circle(red)
     client_code(circle)
